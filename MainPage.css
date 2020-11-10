@@ -1,0 +1,209 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: blanchedalmond;
+}
+li {  
+  float: left;
+}
+li a{
+  float: right;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+li .NavRight{
+  float:Right;
+  margin-right: 30px;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;  
+  transform: translate(-50%, -50%);
+  color: white;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+.hero-image {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./climbingWomen.jpg");
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 76%);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container {
+  position: absolute;
+  width: 100%;
+}
+.topnav {
+  overflow: hidden;
+  background-color:rgba(179, 179, 179, 0.534);
+}
+.topnav a {
+  margin-left: 30px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.NavRight{
+  float:right;
+  margin-right: 30px;
+}
+.topnav a:hover {
+  background-color:rgba(rgb(160, 160, 160, 0.3));
+  color: black;
+}
+.TextWrap{
+  float: right;
+  margin: 10px;
+}
+.main-content{
+  float: right;
+  margin: 10px;
+  font-size:20px; 
+  background-color: rgba(187, 178, 178, 0.596); 
+  padding:20px;
+}
+.main-content2{
+  float: right;
+  margin: 10px;
+  font-size: 20px;
+  background-color: rgba(187, 178, 178, 0.596);
+  padding:20px;
+}
+body{
+  margin: 0;
+}
+.column {
+  float: left;
+  padding-top: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  margin:0 auto;
+}
+.left {
+  font-size: larger;
+  width: 20%;
+  height: 920px;
+  margin-top: 0;
+  margin-left: 35px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.right {
+  font-size: larger;
+  width: 70%;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.right1{
+  font-size: larger;
+  width: 70%;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.left2{
+  width:45%;
+  font-size: larger;
+  margin-left: 35px;
+}
+.right2{
+  width: 45%;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+a:visited{
+  color: black;
+  padding: 17px;
+  text-align: center;
+  display: inline-block;
+}
+a:link{
+  font-weight: 500;
+  text-decoration: underline;
+}
+a:hover{
+  font-weight: 600;
+}
+.footer{
+  padding: 20px;
+  font-weight:600 ;
+  font-size: large;
+  background-color: rgba(187, 178, 178, 0.596);
+  width: 91.5%;
+  margin-left: 48px;
+  margin-right: 60px;
+  text-align: center;
+}
+.images{
+  float: left;
+  padding: 10px;
+  height: 50%;
+  width:50%;
+}
+.imagesRound{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 1116px){
+  .column{width: 100%;}
+}
+form{
+  width:500px;
+  margin: 0 auto;
+  line-height: 7;
+}
+label{
+  align-content: center;
+  font-weight: 700px;
+  display: inline;
+   line-height: 13;
+}
+.form-group{
+  color: beige;
+}
+
+.content{
+  background:url("./climbingWomen.jpg");
+  opacity: 0.5;
+}
+.content .box{
+  opacity: 1;
+}
+.column{
+  width: 100%;
+}
+.row{
+  margin-right:0;
+}
