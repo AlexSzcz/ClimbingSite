@@ -1,2 +1,2 @@
 # This is my Hobby Site #
-## By me ##
+## By Alex Szczesiul ##
